@@ -1,15 +1,7 @@
 # Friday
-A course project based on the famous card game Friday
+A project based on the famous card game Friday
 ___________________________________________________________________________________________________________________________________________________________
-1 Team member
-___________________________________________________________________________________________________________________________________________________________
-
-Song Yichuan 3035844871
-
-Wang Keran 3035844807
-
-___________________________________________________________________________________________________________________________________________________________
-2 Game Discription
+ Game Discription
 ___________________________________________________________________________________________________________________________________________________________
 1.1 Short Intro
 
@@ -78,7 +70,7 @@ Aging Card:
 (a detailed table will be put in Game Rules)
 __________________________________________________________________________________________________________________________________________________________
 
-3 Features List：
+ Features List：
 __________________________________________________________________________________________________________________________________________________________
 	1. Our game 「generates random game sets and events」, such as various fighting cards, unpredictable hazard cards, and knowledge cards, making the game exhilarating. We will use stand, rand, time.h combined with vector to realize shuffling.
 
@@ -95,7 +87,7 @@ ________________________________________________________________________________
 	7. There are also colorful displaying interfaces and icons shown.
 
 __________________________________________________________________________________________________________________________________________________________
-4. A list of non-standard C/C++ libraries
+ A list of non-standard C/C++ libraries
 __________________________________________________________________________________________________________________________________________________________
 	1.home_page.h
 This library helps us to generate the home_page with looping, in which we are able to start the game or view the game rules.
@@ -103,7 +95,7 @@ This library helps us to generate the home_page with looping, in which we are ab
 This library helps us to read a large text file as input (fin) by iostream. With the help of looping inside, we will be directed to  the game after browersing the game rules.
 	
 __________________________________________________________________________________________________________________________________________________________
-5. Compilation and execution instructions
+ Compilation and execution instructions
 __________________________________________________________________________________________________________________________________________________________
 	In order to quickly start the game we need to download 7 files to  a directory, namely, 
 Makefile, main.cpp, rules.cpp, rules.txt, rules.h, home_page.cpp, home_page.h.
