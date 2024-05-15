@@ -1,0 +1,48 @@
+1. Game Components
+
+58 fighting cards*:            
+	18 Robinson starting cards；
+	10 aging cards；
+	30 hazzard/knowledge cards；
+10 pirate cards；
+22 life points。
+Robinson has an initial life points of 22 life points, and an initial 0 fighting points.
+There are also a Robinson stack (with 18 initial knowledge cards shuffled), an aging pile (with 10 initial aging cards shuffled), and a hazard pile (with 30 initial hazard/knowledge cards shuffled) **
+
+
+2. Four Steps of the Game:
+
+Step 1 : Green, survival;
+Step 2 : Yellow, survival;
+Step 3 : Red, survival;
+Step 4 : Pirates;
+
+You need to survive all 4 steps to win the game.
+
+
+3. Playing The Game:
+
+The game starts from the Green step (step 1):
+
+	1) Draw two topmost hazard/knowledge cards from the hazard pile***, and choose one of the two cards as the actual hazard card. Discard the other card on the hazard discard pile.	
+
+	2) Fighting against the hazard:
+	The hazard card shows its [hazard name], [hazzard value of the first 3 steps (green, yellow, red)], and [rest number of free cards]. When the [rest number of free cards] is bigger than 0, the player can type 1 to draw one fighting card after another from the knowledge pile, until [rest number of free cards] becomes 0. Knowledge card shows [knowledge name], [fighting points], [life value required to remove this card: 1], and [times for possible action ].  The player can enter “2’” to use a card’s function and input the index of that card. The player can also enter “3”  to draw another card by paying life points (1 knowledge card/-1 life point, 1aging card/ -2 life points). The player can also enter “4” to skip the danger by paying life points, which equals to the difference between the hazard value of this stage and the total fighting points. By entering “b”, the player can go back to home page.
+
+
+	3) Result of Fighting a Hazzard :
+	Result A (succeed in fighting):
+	When the final total fight point is not less than the [hazzard value of this stage] this hazard Card is converted into the corresponding Knowledge Card.		
+	Result B (fail in fighting):
+	When the final total fighting point is less than the [hazzard value of this stage] at this stage, the hazzard card will be placed in the hazard discard pile as a crisis card. Players can enter “3 ” and choose to destroy any number of knowledge cards in this hand by entering ints index on the condition that their total [life values needed to remove this card] is lower than the paid life value. 
+No matter what the result is the next hazard fighting will begin unless entering “b” to quit. When the three steps are successfully cleared, enter step 4 (Pirates):
+
+
+         4) Fighting against the pirate:
+ 	Two pirate cards are drawn from the pirate pile and choose the order in which to challenge the two pirates. The pirate card is more dangerous than the hazard card. Its [name], [hazzard value], [rest number of free cards] will be displayed. When fighting a pirate the life points consumed can only be used to draw additional knowledge cards, and cannot be used to offset the difference between the [hazzard value] and the total fighting points.
+
+	5) Game Victory
+	Players win the game after defeating two pirates with non-negative life points throughout the game.
+
+
+
